@@ -3,8 +3,15 @@ let recipes = [];
 async function fetchRecipes() {
     try {
         console.log('Fetching recipes...');
-        const response = await fetch('./src/data/recipes.json');
+        // Try one of these fetch paths:
         
+        // Option 1: Using relative path from root
+        const response = await fetch('/SEAdish.github.io/src/data/recipes.json');
+        
+        // Option 2: Using full URL (replace USERNAME with your GitHub username)
+        // const response = await fetch('https://ruzz0805.github.io/SEAdish.github.io/src/data/recipes.json');
+        
+        // Add detailed error logging
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -12,22 +19,27 @@ async function fetchRecipes() {
         const data = await response.json();
         recipes = data.recipes;
         console.log(`Successfully loaded ${recipes.length} recipes`);
-        console.log('Recipes by country:', 
-            recipes.reduce((acc, recipe) => {
-                acc[recipe.country] = (acc[recipe.country] || 0) + 1;
-                return acc;
-            }, {})
-        );
         
         // Initialize the current page content
-        const currentPage = document.querySelector('.nav-links .active')?.dataset.page || 'all';
+        const currentPage = document.querySelector('.nav-links .active')?.dataset.page || 'home';
         navigateToPage(currentPage);
+        
     } catch (error) {
-        console.error('Error loading recipes:', error);
+        console.error('Detailed error:', {
+            message: error.message,
+            stack: error.stack,
+            location: window.location.href
+        });
+        
         document.querySelector('.main-content').innerHTML = `
             <div class="error-message">
                 <h2>Error Loading Recipes</h2>
-                <p>Error details: ${error.message}</p>
+                <p>There was a problem loading the recipes. Details:</p>
+                <ul>
+                    <li>Error: ${error.message}</li>
+                    <li>Current URL: ${window.location.href}</li>
+                    <li>Attempted path: /SEAdish.github.io/src/data/recipes.json</li>
+                </ul>
             </div>
         `;
     }
@@ -37,29 +49,28 @@ async function fetchRecipes() {
 function navigateToPage(page) {
     console.log('Navigating to:', page);
     
-    // Update active state in navigation
-    document.querySelectorAll('.nav-links a').forEach(link => {
-        link.classList.remove('active');
-        if (link.dataset.page === page) {
-            link.classList.add('active');
-        }
-    });
-
     // Get the main content container
     const mainContent = document.querySelector('.main-content');
     
     switch (page) {
-        case 'all':
+        case 'allRecipes':
             displayAllRecipes(mainContent);
             break;
-        case 'random':
+        case 'randomDish':
             displayRandomRecipe(mainContent);
             break;
         case 'favorites':
             displayFavorites(mainContent);
             break;
+        case 'search':
+            displaySearch(mainContent);
+            break;
+        case 'countries':
+            displayCountries(mainContent);
+            break;
+        case 'home':
         default:
-            displayAllRecipes(mainContent);
+            displayHome(mainContent);
     }
 }
 
@@ -69,10 +80,20 @@ document.addEventListener('DOMContentLoaded', function() {
     fetchRecipes();
     
     // Add click handlers for navigation links
-    document.querySelectorAll('.nav-links a').forEach(link => {
+    document.querySelectorAll('.nav-links li').forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
-            const page = e.target.dataset.page;
+            
+            // Remove active class from all links
+            document.querySelectorAll('.nav-links li').forEach(l => {
+                l.classList.remove('active');
+            });
+            
+            // Add active class to clicked link
+            link.classList.add('active');
+            
+            // Get the page from data-page attribute
+            const page = link.getAttribute('data-page');
             navigateToPage(page);
         });
     });
