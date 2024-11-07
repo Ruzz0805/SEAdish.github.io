@@ -1,0 +1,1042 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Nasi Goreng",
+      "description": "Indonesian Fried Rice",
+      "country": "Indonesia",
+      "image": "https://www.jocooks.com/wp-content/uploads/2023/09/nasi-goreng-1-23.jpg",
+      "ingredients": [
+        "3 cups cooked rice",
+        "2 cloves garlic",
+        "1 shallot",
+        "2 tbsp soy sauce",
+        "1 egg",
+        "Kecap manis (sweet soy sauce)",
+        "Vegetable oil"
+      ],
+      "instructions": [
+        "Heat oil in a wok over high heat",
+        "Sauté garlic and shallots until fragrant",
+        "Add rice and stir-fry for 2 minutes",
+        "Add soy sauce and kecap manis",
+        "Make a well and crack an egg",
+        "Stir-fry until well combined",
+        "Serve hot with fried egg on top"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Rendang",
+      "description": "Indonesian Spicy Meat Stew",
+      "country": "Indonesia",
+      "image": "https://mycuratedtastes.com/wp-content/uploads/2023/07/Easy-Beef-Rendang-Featured-Image-768x512.webp",
+      "ingredients": [
+        "1kg beef chunks",
+        "Coconut milk",
+        "Lemongrass",
+        "Galangal",
+        "Turmeric leaves",
+        "Chili paste"
+      ],
+      "instructions": [
+        "Blend spices into a paste",
+        "Cook meat with spice paste",
+        "Add coconut milk and simmer",
+        "Cook until liquid evaporates",
+        "Fry in remaining oil until dark"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Gado-gado",
+      "description": "Indonesian Vegetable Salad",
+      "country": "Indonesia",
+      "image": "https://www.recipetineats.com/tachyon/2020/06/Indonesian-Gado-Gado.jpg?resize=900%2C1260&zoom=1",
+      "ingredients": [
+        "Mixed vegetables",
+        "Tofu",
+        "Tempeh",
+        "Peanut sauce",
+        "Eggs",
+        "Prawn crackers"
+      ],
+      "instructions": [
+        "Boil vegetables until tender",
+        "Fry tofu and tempeh",
+        "Make peanut sauce",
+        "Arrange on plate",
+        "Top with peanut sauce"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Pad Thai",
+      "description": "Thai Stir-Fried Rice Noodles",
+      "country": "Thailand",
+      "image": "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=800",
+      "ingredients": [
+        "Rice noodles",
+        "Shrimp",
+        "Tofu", 
+        "Bean sprouts",
+        "Tamarind paste",
+        "Fish sauce",
+        "Palm sugar"
+      ],
+      "instructions": [
+        "Soak noodles in warm water",
+        "Mix sauce with tamarind, fish sauce, and palm sugar",
+        "Stir-fry shrimp and tofu",
+        "Add noodles and sauce",
+        "Add bean sprouts and green onions",
+        "Serve with lime and crushed peanuts"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Tom Yum Goong",
+      "description": "Thai Spicy Shrimp Soup",
+      "country": "Thailand",
+      "image": "https://images.unsplash.com/photo-1548943487-a2e4e43b4853?w=800",
+      "ingredients": [
+        "Shrimp",
+        "Lemongrass",
+        "Kaffir lime leaves",
+        "Galangal",
+        "Thai chilies",
+        "Mushrooms"
+      ],
+      "instructions": [
+        "Boil broth with herbs",
+        "Add mushrooms",
+        "Add shrimp",
+        "Season with lime and fish sauce",
+        "Garnish with cilantro"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Green Curry",
+      "description": "Thai Green Curry with Chicken",
+      "country": "Thailand",
+      "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800",
+      "ingredients": [
+        "Chicken",
+        "Green curry paste",
+        "Coconut milk",
+        "Thai eggplants",
+        "Bamboo shoots",
+        "Sweet basil"
+      ],
+      "instructions": [
+        "Cook curry paste in coconut cream",
+        "Add chicken and coconut milk",
+        "Add vegetables",
+        "Simmer until cooked",
+        "Garnish with basil"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Chicken Adobo",
+      "description": "Filipino Braised Chicken",
+      "country": "Philippines",
+      "image": "https://images.unsplash.com/photo-1623595119708-26b1f7300075?w=800",
+      "ingredients": [
+        "Chicken thighs",
+        "Soy sauce",
+        "Vinegar",
+        "Garlic",
+        "Bay leaves",
+        "Black peppercorns"
+      ],
+      "instructions": [
+        "Combine chicken with soy sauce and vinegar",
+        "Add crushed garlic, bay leaves, and peppercorns",
+        "Marinate for 30 minutes",
+        "Simmer until chicken is tender",
+        "Serve with steamed rice"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Sinigang",
+      "description": "Filipino Sour Soup",
+      "country": "Philippines",
+      "image": "https://images.unsplash.com/photo-1614084344993-b889c8f9f8e9?w=800",
+      "ingredients": [
+        "Pork ribs",
+        "Tamarind",
+        "Tomatoes",
+        "Eggplant",
+        "String beans",
+        "Spinach"
+      ],
+      "instructions": [
+        "Boil pork until tender",
+        "Add tamarind and tomatoes",
+        "Add vegetables",
+        "Season to taste",
+        "Serve hot"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Pancit",
+      "description": "Filipino Stir-Fried Noodles",
+      "country": "Philippines",
+      "image": "https://images.unsplash.com/photo-1619683548293-c74defe8d5d2?w=800",
+      "ingredients": [
+        "Rice noodles",
+        "Chicken",
+        "Carrots",
+        "Cabbage",
+        "Soy sauce",
+        "Calamansi"
+      ],
+      "instructions": [
+        "Stir-fry chicken",
+        "Add vegetables",
+        "Add noodles and sauce",
+        "Toss until combined",
+        "Serve with calamansi"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Pho",
+      "description": "Vietnamese Rice Noodle Soup",
+      "country": "Vietnam",
+      "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800",
+      "ingredients": [
+        "Rice noodles",
+        "Beef slices",
+        "Bean sprouts",
+        "Thai basil",
+        "Star anise",
+        "Beef bones"
+      ],
+      "instructions": [
+        "Simmer bones for broth",
+        "Cook rice noodles",
+        "Arrange noodles and beef",
+        "Pour hot broth",
+        "Add herbs and garnishes"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Banh Mi",
+      "description": "Vietnamese Sandwich",
+      "country": "Vietnam",
+      "image": "https://images.unsplash.com/photo-1600454309261-3dc9b7e7fa7f?w=800",
+      "ingredients": [
+        "French baguette",
+        "Pate",
+        "Vietnamese ham",
+        "Pickled vegetables",
+        "Cilantro",
+        "Chili"
+      ],
+      "instructions": [
+        "Slice baguette lengthwise",
+        "Spread pate",
+        "Layer meats",
+        "Add pickled vegetables",
+        "Garnish with herbs"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Amok Trey",
+      "description": "Cambodian Fish Curry",
+      "country": "Cambodia",
+      "image": "https://images.unsplash.com/photo-1516714435131-44d6b64dc6a2?w=800",
+      "ingredients": [
+        "White fish fillets",
+        "Coconut milk",
+        "Lemongrass",
+        "Kaffir lime leaves",
+        "Fish sauce",
+        "Banana leaves"
+      ],
+      "instructions": [
+        "Make curry paste",
+        "Mix with coconut milk",
+        "Steam in banana leaves",
+        "Garnish with coconut cream",
+        "Serve with rice"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Lok Lak",
+      "description": "Cambodian Pepper Beef",
+      "country": "Cambodia",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800",
+      "ingredients": [
+        "Beef cubes",
+        "Black pepper",
+        "Oyster sauce",
+        "Fish sauce",
+        "Lime juice",
+        "Lettuce"
+      ],
+      "instructions": [
+        "Marinate beef",
+        "Prepare dipping sauce",
+        "Stir-fry beef",
+        "Serve with lime-pepper sauce",
+        "Garnish with lettuce"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Laksa",
+      "description": "Malaysian Spicy Noodle Soup",
+      "country": "Malaysia",
+      "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=800",
+      "ingredients": [
+        "Rice noodles",
+        "Coconut milk",
+        "Shrimp",
+        "Bean sprouts",
+        "Laksa paste",
+        "Fish balls"
+      ],
+      "instructions": [
+        "Cook laksa paste",
+        "Add coconut milk",
+        "Cook seafood",
+        "Add noodles",
+        "Garnish and serve"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Nasi Lemak",
+      "description": "Malaysian Coconut Rice",
+      "country": "Malaysia",
+      "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=800",
+      "ingredients": [
+        "Rice",
+        "Coconut milk",
+        "Pandan leaves",
+        "Sambal",
+        "Anchovies",
+        "Peanuts"
+      ],
+      "instructions": [
+        "Cook rice with coconut milk",
+        "Fry anchovies and peanuts",
+        "Make sambal",
+        "Arrange components",
+        "Serve with cucumber"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Mohinga",
+      "description": "Burmese Fish Soup",
+      "country": "Myanmar",
+      "image": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=800",
+      "ingredients": [
+        "Rice noodles",
+        "Fish",
+        "Banana stem",
+        "Lemongrass",
+        "Ginger",
+        "Crispy fritters"
+      ],
+      "instructions": [
+        "Make fish broth",
+        "Cook rice noodles",
+        "Prepare toppings",
+        "Combine in bowl",
+        "Add crispy garnishes"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Tea Leaf Salad",
+      "description": "Burmese Fermented Tea Salad",
+      "country": "Myanmar",
+      "image": "https://images.unsplash.com/photo-1515669097368-22e68427d265?w=800",
+      "ingredients": [
+        "Fermented tea leaves",
+        "Peanuts",
+        "Sesame seeds",
+        "Fried garlic",
+        "Tomatoes",
+        "Dried shrimp"
+      ],
+      "instructions": [
+        "Mix tea leaves",
+        "Toast nuts and seeds",
+        "Combine ingredients",
+        "Toss well",
+        "Serve immediately"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Larb",
+      "description": "Laotian Minced Meat Salad",
+      "country": "Laos",
+      "image": "https://images.unsplash.com/photo-1518735869015-566a18eae4be?w=800",
+      "ingredients": [
+        "Minced pork",
+        "Mint leaves",
+        "Shallots",
+        "Rice powder",
+        "Fish sauce",
+        "Lime juice"
+      ],
+      "instructions": [
+        "Cook minced meat",
+        "Toast rice powder",
+        "Mix with herbs",
+        "Season with lime and fish sauce",
+        "Serve with sticky rice"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Tam Mak Hoong",
+      "description": "Laotian Spicy Papaya Salad",
+      "country": "Laos",
+      "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800",
+      "ingredients": [
+        "Green papaya",
+        "Tomatoes",
+        "Chili",
+        "Fish sauce",
+        "Lime",
+        "Dried shrimp"
+      ],
+      "instructions": [
+        "Shred papaya",
+        "Pound ingredients",
+        "Mix with sauce",
+        "Adjust seasoning",
+        "Serve fresh"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Sate Ayam",
+      "description": "Indonesian Chicken Satay",
+      "country": "Indonesia",
+      "image": "https://images.unsplash.com/photo-1529563021893-cc83c992d75d?w=800",
+      "ingredients": [
+        "Chicken thighs",
+        "Peanut sauce",
+        "Kecap manis",
+        "Lemongrass",
+        "Turmeric",
+        "Bamboo skewers"
+      ],
+      "instructions": [
+        "Marinate chicken in spices",
+        "Thread onto skewers",
+        "Grill until cooked",
+        "Serve with peanut sauce"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Soto Ayam",
+      "description": "Indonesian Chicken Soup",
+      "country": "Indonesia",
+      "image": "https://images.unsplash.com/photo-1583835746434-cf1534674b41?w=800",
+      "ingredients": [
+        "Chicken",
+        "Vermicelli noodles",
+        "Bean sprouts",
+        "Turmeric",
+        "Lime",
+        "Eggs"
+      ],
+      "instructions": [
+        "Make turmeric broth",
+        "Cook chicken",
+        "Prepare noodles",
+        "Assemble bowl",
+        "Add condiments"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Som Tam",
+      "description": "Thai Green Papaya Salad",
+      "country": "Thailand",
+      "image": "https://images.unsplash.com/photo-1626509653291-36185c9d5626?w=800",
+      "ingredients": [
+        "Green papaya",
+        "Cherry tomatoes",
+        "Long beans",
+        "Peanuts",
+        "Fish sauce",
+        "Lime"
+      ],
+      "instructions": [
+        "Shred papaya",
+        "Pound ingredients",
+        "Mix dressing",
+        "Combine all",
+        "Adjust seasoning"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Bun Bo Hue",
+      "description": "Spicy Vietnamese Beef Noodle Soup",
+      "country": "Vietnam",
+      "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800",
+      "ingredients": [
+        "Rice vermicelli",
+        "Beef shank",
+        "Lemongrass",
+        "Shrimp paste",
+        "Vietnamese herbs",
+        "Chili oil"
+      ],
+      "instructions": [
+        "Make spicy broth",
+        "Cook beef until tender",
+        "Prepare noodles",
+        "Assemble bowl",
+        "Add herbs and condiments"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Beef Rendang",
+      "description": "Indonesian Spicy Coconut Beef",
+      "country": "Indonesia",
+      "image": "https://images.unsplash.com/photo-1599579133551-7dfa5cbe7e9a?w=800",
+      "ingredients": [
+        "Beef chunks",
+        "Coconut milk",
+        "Lemongrass",
+        "Galangal",
+        "Chili paste",
+        "Spice mix"
+      ],
+      "instructions": [
+        "Prepare spice paste",
+        "Cook beef with spices",
+        "Simmer in coconut milk",
+        "Reduce until dry",
+        "Fry until dark"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Bakso",
+      "description": "Indonesian Meatball Soup",
+      "country": "Indonesia",
+      "image": "https://images.unsplash.com/photo-1587689751569-2b5a1b6f5d5a?w=800",
+      "ingredients": [
+        "Ground beef",
+        "Tapioca starch",
+        "Egg",
+        "Garlic",
+        "Noodles",
+        "Green vegetables"
+      ],
+      "instructions": [
+        "Make meatballs",
+        "Prepare clear broth",
+        "Cook noodles",
+        "Assemble soup",
+        "Add condiments"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Massaman Curry",
+      "description": "Thai Muslim-Style Curry",
+      "country": "Thailand",
+      "image": "https://images.unsplash.com/photo-1596797038530-2c107aa2c685?w=800",
+      "ingredients": [
+        "Beef or chicken",
+        "Potatoes",
+        "Onions",
+        "Massaman curry paste",
+        "Coconut milk",
+        "Peanuts"
+      ],
+      "instructions": [
+        "Cook curry paste",
+        "Add meat and potatoes",
+        "Simmer in coconut milk",
+        "Add peanuts",
+        "Season to taste"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Khao Pad",
+      "description": "Thai Fried Rice",
+      "country": "Thailand",
+      "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800",
+      "ingredients": [
+        "Cooked rice",
+        "Eggs",
+        "Onions",
+        "Garlic",
+        "Soy sauce",
+        "Fish sauce"
+      ],
+      "instructions": [
+        "Stir-fry garlic",
+        "Add rice",
+        "Add seasonings",
+        "Make egg well",
+        "Mix and serve"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Kare-Kare",
+      "description": "Filipino Oxtail Stew",
+      "country": "Philippines",
+      "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800",
+      "ingredients": [
+        "Oxtail",
+        "Peanut butter",
+        "Eggplant",
+        "String beans",
+        "Banana heart",
+        "Shrimp paste"
+      ],
+      "instructions": [
+        "Cook oxtail until tender",
+        "Make peanut sauce",
+        "Add vegetables",
+        "Simmer together",
+        "Serve with shrimp paste"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Sisig",
+      "description": "Filipino Sizzling Pork",
+      "country": "Philippines",
+      "image": "https://images.unsplash.com/photo-1625398407796-82276e6eda89?w=800",
+      "ingredients": [
+        "Pork face and belly",
+        "Onions",
+        "Chili peppers",
+        "Calamansi",
+        "Mayonnaise",
+        "Egg"
+      ],
+      "instructions": [
+        "Grill pork",
+        "Chop into small pieces",
+        "Mix with onions",
+        "Season with calamansi",
+        "Serve on sizzling plate"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Banh Xeo",
+      "description": "Vietnamese Crispy Crepes",
+      "country": "Vietnam",
+      "image": "https://images.unsplash.com/photo-1625938144755-652e08e359b7?w=800",
+      "ingredients": [
+        "Rice flour",
+        "Turmeric powder",
+        "Coconut milk",
+        "Pork belly",
+        "Shrimp",
+        "Bean sprouts"
+      ],
+      "instructions": [
+        "Make crepe batter",
+        "Heat pan until very hot",
+        "Pour batter and swirl",
+        "Add fillings",
+        "Cook until crispy"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Com Tam",
+      "description": "Vietnamese Broken Rice",
+      "country": "Vietnam",
+      "image": "https://images.unsplash.com/photo-1583759136431-9d70db2eb04c?w=800",
+      "ingredients": [
+        "Broken rice",
+        "Grilled pork",
+        "Fried egg",
+        "Pickled vegetables",
+        "Fish sauce",
+        "Green onions"
+      ],
+      "instructions": [
+        "Cook broken rice",
+        "Grill marinated pork",
+        "Fry egg",
+        "Arrange on plate",
+        "Serve with fish sauce"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Roti Canai",
+      "description": "Malaysian Flaky Flatbread",
+      "country": "Malaysia",
+      "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800",
+      "ingredients": [
+        "Flour",
+        "Water",
+        "Salt",
+        "Ghee",
+        "Oil",
+        "Curry sauce"
+      ],
+      "instructions": [
+        "Make dough",
+        "Rest dough",
+        "Flatten and fold",
+        "Cook on griddle",
+        "Serve with curry"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Satay",
+      "description": "Malaysian Grilled Meat Skewers",
+      "country": "Malaysia",
+      "image": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=800",
+      "ingredients": [
+        "Chicken or beef",
+        "Turmeric",
+        "Lemongrass",
+        "Peanut sauce",
+        "Cucumber",
+        "Rice cakes"
+      ],
+      "instructions": [
+        "Marinate meat",
+        "Thread onto skewers",
+        "Grill until cooked",
+        "Make peanut sauce",
+        "Serve with accompaniments"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Kuy Teav",
+      "description": "Cambodian Noodle Soup",
+      "country": "Cambodia",
+      "image": "https://images.unsplash.com/photo-1583321500900-82807e458f3c?w=800",
+      "ingredients": [
+        "Rice noodles",
+        "Pork or beef",
+        "Bean sprouts",
+        "Herbs",
+        "Fish sauce",
+        "Lime"
+      ],
+      "instructions": [
+        "Prepare broth",
+        "Cook meat",
+        "Cook noodles",
+        "Assemble bowl",
+        "Add garnishes"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Beef Lok Lak",
+      "description": "Cambodian Stir-Fried Beef",
+      "country": "Cambodia",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800",
+      "ingredients": [
+        "Beef cubes",
+        "Black pepper",
+        "Oyster sauce",
+        "Fish sauce",
+        "Lime juice",
+        "Lettuce"
+      ],
+      "instructions": [
+        "Marinate beef",
+        "Make dipping sauce",
+        "Stir-fry beef",
+        "Serve with rice",
+        "Garnish with lime"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Shan Noodles",
+      "description": "Burmese Rice Noodles with Chicken",
+      "country": "Myanmar",
+      "image": "https://images.unsplash.com/photo-1569562211093-4ed0d0758f12?w=800",
+      "ingredients": [
+        "Rice noodles",
+        "Chicken",
+        "Tomatoes",
+        "Garlic",
+        "Peanuts",
+        "Chili oil"
+      ],
+      "instructions": [
+        "Cook rice noodles",
+        "Prepare chicken sauce",
+        "Mix noodles with sauce",
+        "Top with peanuts",
+        "Add chili oil to taste"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Htamin Jin",
+      "description": "Burmese Fermented Rice Salad",
+      "country": "Myanmar",
+      "image": "https://images.unsplash.com/photo-1567982047351-76b6f93e9073?w=800",
+      "ingredients": [
+        "Fermented rice",
+        "Fish flakes",
+        "Green chili",
+        "Garlic oil",
+        "Tamarind",
+        "Crispy garlic"
+      ],
+      "instructions": [
+        "Mix fermented rice",
+        "Add fish flakes",
+        "Season with tamarind",
+        "Add garlic oil",
+        "Garnish with crispy garlic"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Khao Piak Sen",
+      "description": "Laotian Chicken Noodle Soup",
+      "country": "Laos",
+      "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800",
+      "ingredients": [
+        "Fresh rice noodles",
+        "Chicken",
+        "Garlic",
+        "Ginger",
+        "Green onions",
+        "Black pepper"
+      ],
+      "instructions": [
+        "Make chicken broth",
+        "Cook fresh noodles",
+        "Add chicken pieces",
+        "Season with herbs",
+        "Serve hot with garnishes"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Mok Pa",
+      "description": "Laotian Steamed Fish in Banana Leaf",
+      "country": "Laos",
+      "image": "https://images.unsplash.com/photo-1535399831218-d5bd36d1a6b3?w=800",
+      "ingredients": [
+        "Fish fillets",
+        "Lemongrass",
+        "Kaffir lime leaves",
+        "Dill",
+        "Chili",
+        "Banana leaves"
+      ],
+      "instructions": [
+        "Prepare spice paste",
+        "Marinate fish",
+        "Wrap in banana leaves",
+        "Steam until cooked",
+        "Serve with sticky rice"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Char Kway Teow",
+      "description": "Malaysian Stir-Fried Noodles",
+      "country": "Malaysia",
+      "image": "https://images.unsplash.com/photo-1645696301019-35a80c594548?w=800",
+      "ingredients": [
+        "Flat rice noodles",
+        "Shrimp",
+        "Chinese sausage",
+        "Bean sprouts",
+        "Chives",
+        "Dark soy sauce"
+      ],
+      "instructions": [
+        "Heat wok until smoking",
+        "Stir-fry ingredients",
+        "Add noodles",
+        "Season with sauces",
+        "Toss until charred"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Ohn No Khao Swe",
+      "description": "Burmese Coconut Chicken Noodles",
+      "country": "Myanmar",
+      "image": "https://images.unsplash.com/photo-1556910633-5099dc3971ca?w=800",
+      "ingredients": [
+        "Egg noodles",
+        "Chicken",
+        "Coconut milk",
+        "Chickpea flour",
+        "Onions",
+        "Turmeric"
+      ],
+      "instructions": [
+        "Cook chicken in turmeric",
+        "Make coconut sauce",
+        "Prepare noodles",
+        "Combine all components",
+        "Add garnishes"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Laphet Thoke",
+      "description": "Burmese Green Tea Leaf Salad",
+      "country": "Myanmar",
+      "image": "https://images.unsplash.com/photo-1515669097368-22e68427d265?w=800",
+      "ingredients": [
+        "Fermented tea leaves",
+        "Tomatoes",
+        "Dried shrimp",
+        "Peanuts",
+        "Garlic",
+        "Sesame seeds"
+      ],
+      "instructions": [
+        "Mix tea leaves with oil",
+        "Combine with crunchy ingredients",
+        "Add tomatoes",
+        "Toss well",
+        "Serve immediately"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Sien Savanh",
+      "description": "Laotian Beef Jerky",
+      "country": "Laos",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800",
+      "ingredients": [
+        "Beef strips",
+        "Fish sauce",
+        "Garlic",
+        "Black pepper",
+        "Sugar",
+        "Sesame seeds"
+      ],
+      "instructions": [
+        "Marinate beef",
+        "Dry in sun or dehydrator",
+        "Deep fry until crispy",
+        "Sprinkle with sesame",
+        "Serve with sticky rice"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Or Lam",
+      "description": "Laotian Herb Stew",
+      "country": "Laos",
+      "image": "https://images.unsplash.com/photo-1547928576-b822bc410bdf?w=800",
+      "ingredients": [
+        "Buffalo meat",
+        "Sakhan wood",
+        "Eggplant",
+        "Lemongrass",
+        "Dill",
+        "Mushrooms"
+      ],
+      "instructions": [
+        "Simmer meat with herbs",
+        "Add vegetables",
+        "Cook until tender",
+        "Season to taste",
+        "Garnish with dill"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Rendang Daging",
+      "description": "Malaysian Dry Curry Beef",
+      "country": "Malaysia",
+      "image": "https://images.unsplash.com/photo-1633237308525-cd587cf71926?w=800",
+      "ingredients": [
+        "Beef chunks",
+        "Coconut milk",
+        "Lemongrass",
+        "Galangal",
+        "Turmeric leaves",
+        "Chili paste"
+      ],
+      "instructions": [
+        "Make spice paste",
+        "Cook beef with spices",
+        "Reduce coconut milk",
+        "Stir until dry",
+        "Serve with rice"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Nom Banh Chok",
+      "description": "Cambodian Rice Noodle Curry",
+      "country": "Cambodia",
+      "image": "https://images.unsplash.com/photo-1569562211093-4ed0d0758f12?w=800",
+      "ingredients": [
+        "Rice noodles",
+        "Fish curry paste",
+        "Banana flower",
+        "Bean sprouts",
+        "Mint leaves",
+        "Cucumber"
+      ],
+      "instructions": [
+        "Prepare curry sauce",
+        "Cook noodles",
+        "Arrange vegetables",
+        "Pour curry sauce",
+        "Garnish with herbs"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Cao Lau",
+      "description": "Hoi An Noodle Specialty",
+      "country": "Vietnam",
+      "image": "https://images.unsplash.com/photo-1583321500900-82807e458f3c?w=800",
+      "ingredients": [
+        "Cao lau noodles",
+        "Pork slices",
+        "Bean sprouts",
+        "Herbs",
+        "Crispy croutons",
+        "Chili jam"
+      ],
+      "instructions": [
+        "Prepare special noodles",
+        "Cook marinated pork",
+        "Assemble in bowl",
+        "Add herbs and sprouts",
+        "Top with croutons"
+      ]
+    }
+  ]
+} 

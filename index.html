@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEA Dishes - Southeast Asian Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="logo">
+                <h1>SEA Dishes</h1>
+            </div>
+            <ul class="nav-links">
+                <li class="active" data-page="home">
+                    <a href="#"><span>🏠</span> Home</a>
+                </li>
+                <li data-page="allRecipes">
+                    <a href="#"><span>🍜</span> All Recipes</a>
+                </li>
+                <li data-page="search">
+                    <a href="#"><span>🔍</span> Search</a>
+                </li>
+                <li data-page="countries">
+                    <a href="#"><span>🌏</span> Countries</a>
+                </li>
+                <li data-page="favorites">
+                    <a href="#"><span>⭐</span> Favorites</a>
+                </li>
+                <li data-page="randomDish">
+                    <a href="#"><span>🎲</span> Random Dish</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Home Page Content -->
+            <div class="hero-section">
+                <h1>Welcome to SEA Dishes</h1>
+                <p class="hero-text">Discover the vibrant flavors of Southeast Asia, where every dish tells a story of tradition, culture, and passion. From the spicy streets of Thailand to the aromatic kitchens of Indonesia and the savory homes of the Philippines, join us on a culinary adventure that will transform your cooking experience.</p>
+                <div class="hero-features">
+                    <div class="feature">
+                        <span>🍳</span>
+                        <p>Authentic Recipes</p>
+                    </div>
+                    <div class="feature">
+                        <span>📝</span>
+                        <p>Step-by-Step Guide</p>
+                    </div>
+                    <div class="feature">
+                        <span>🌏</span>
+                        <p>Cultural Insights</p>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-section">
+                <div class="section-header">
+                    <h2>Featured Recipes</h2>
+                    <p>Explore our hand-picked dishes from across Southeast Asia</p>
+                </div>
+                <div class="recipe-grid featured-grid">
+                    <!-- Featured recipes will be dynamically loaded here -->
+                </div>
+                <div class="see-more-container">
+                    <button class="see-more-btn" onclick="navigateToPage('allRecipes')">See More Recipes</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Recipe Modal -->
+    <div class="modal" id="recipeModal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="recipe-details">
+                <img src="" alt="Recipe Image">
+                <h2>Recipe Name</h2>
+                <div class="ingredients">
+                    <h3>Ingredients</h3>
+                    <ul></ul>
+                </div>
+                <div class="instructions">
+                    <h3>Instructions</h3>
+                    <ol></ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html> 
