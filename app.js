@@ -3,15 +3,14 @@ let recipes = [];
 async function fetchRecipes() {
     try {
         console.log('Fetching recipes...');
-        // Try one of these fetch paths:
         
-        // Option 1: Using relative path from root
-        const response = await fetch('/SEAdish.github.io/src/data/recipes.json');
+        // Determine the correct base URL
+        const baseURL = window.location.hostname.includes('github.io') 
+            ? '/SEAdish.github.io'
+            : '';
+            
+        const response = await fetch(`${baseURL}/src/data/recipes.json`);
         
-        // Option 2: Using full URL (replace USERNAME with your GitHub username)
-        // const response = await fetch('https://ruzz0805.github.io/SEAdish.github.io/src/data/recipes.json');
-        
-        // Add detailed error logging
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -25,20 +24,17 @@ async function fetchRecipes() {
         navigateToPage(currentPage);
         
     } catch (error) {
-        console.error('Detailed error:', {
-            message: error.message,
-            stack: error.stack,
-            location: window.location.href
-        });
-        
+        console.error('Error loading recipes:', error);
         document.querySelector('.main-content').innerHTML = `
             <div class="error-message">
                 <h2>Error Loading Recipes</h2>
-                <p>There was a problem loading the recipes. Details:</p>
+                <p>There was a problem loading the recipes.</p>
+                <p>Error details: ${error.message}</p>
+                <p>Please try:</p>
                 <ul>
-                    <li>Error: ${error.message}</li>
-                    <li>Current URL: ${window.location.href}</li>
-                    <li>Attempted path: /SEAdish.github.io/src/data/recipes.json</li>
+                    <li>Refreshing the page</li>
+                    <li>Checking your internet connection</li>
+                    <li>Clearing your browser cache</li>
                 </ul>
             </div>
         `;
@@ -183,4 +179,122 @@ function showRecipeDetails(recipeId) {
 
 function closeModal() {
     document.querySelector('.recipe-modal').style.display = 'none';
+}
+
+// Add this function to display the home page content
+function displayHome(container) {
+    container.innerHTML = `
+        <div class="hero-section">
+            <h1>Welcome to SEA Dishes</h1>
+            <p class="hero-text">Discover the vibrant flavors of Southeast Asia, where every dish tells a story of tradition, culture, and passion. From the spicy streets of Thailand to the aromatic kitchens of Indonesia and the savory homes of the Philippines, join us on a culinary adventure that will transform your cooking experience.</p>
+            <div class="hero-features">
+                <div class="feature">
+                    <span>🍳</span>
+                    <p>Authentic Recipes</p>
+                </div>
+                <div class="feature">
+                    <span>📝</span>
+                    <p>Step-by-Step Guide</p>
+                </div>
+                <div class="feature">
+                    <span>🌏</span>
+                    <p>Cultural Insights</p>
+                </div>
+            </div>
+        </div>
+        <div class="featured-section">
+            <div class="section-header">
+                <h2>Featured Recipes</h2>
+                <p>Explore our hand-picked dishes from across Southeast Asia</p>
+            </div>
+            <div class="recipe-grid featured-grid">
+                ${displayFeaturedRecipes()}
+            </div>
+            <div class="see-more-container">
+                <button class="see-more-btn" onclick="navigateToPage('allRecipes')">See More Recipes</button>
+            </div>
+        </div>
+    `;
+}
+
+// Add helper function to display featured recipes
+function displayFeaturedRecipes() {
+    if (!recipes.length) return '';
+    
+    // Get 4 random recipes for the featured section
+    const featuredRecipes = [...recipes]
+        .sort(() => 0.5 - Math.random())
+        .slice(0, 4);
+    
+    return featuredRecipes.map(recipe => `
+        <div class="recipe-card" onclick="showRecipeDetails(${recipe.id})">
+            <img src="${recipe.image}" alt="${recipe.name}">
+            <h3>${recipe.name}</h3>
+            <p>${recipe.description}</p>
+            <span class="country-tag">${recipe.country}</span>
+        </div>
+    `).join('');
+}
+
+// Add the search display function
+function displaySearch(container) {
+    container.innerHTML = `
+        <div class="search-section">
+            <h2>Search Recipes</h2>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search by name, country, or ingredients...">
+            </div>
+            <div class="search-results recipe-grid">
+                <!-- Search results will be displayed here -->
+            </div>
+        </div>
+    `;
+
+    // Add search functionality
+    const searchInput = document.getElementById('searchInput');
+    searchInput.addEventListener('input', handleSearch);
+}
+
+// Add search handler function
+function handleSearch(e) {
+    const searchTerm = e.target.value.toLowerCase();
+    const searchResults = recipes.filter(recipe => 
+        recipe.name.toLowerCase().includes(searchTerm) ||
+        recipe.country.toLowerCase().includes(searchTerm) ||
+        recipe.ingredients.some(ing => ing.toLowerCase().includes(searchTerm))
+    );
+
+    const resultsContainer = document.querySelector('.search-results');
+    if (searchTerm.length === 0) {
+        resultsContainer.innerHTML = '';
+        return;
+    }
+
+    resultsContainer.innerHTML = searchResults.map(recipe => `
+        <div class="recipe-card" onclick="showRecipeDetails(${recipe.id})">
+            <img src="${recipe.image}" alt="${recipe.name}">
+            <h3>${recipe.name}</h3>
+            <p>${recipe.description}</p>
+            <span class="country-tag">${recipe.country}</span>
+        </div>
+    `).join('');
+}
+
+// Add the countries display function
+function displayCountries(container) {
+    const countries = [...new Set(recipes.map(recipe => recipe.country))];
+    
+    container.innerHTML = `
+        <div class="countries-section">
+            <h2>Browse by Country</h2>
+            <div class="countries-grid">
+                ${countries.map(country => `
+                    <div class="country-card" onclick="showCountryRecipes('${country}')">
+                        <h3>${country}</h3>
+                        <p>${country} recipes</p>
+                    </div>
+                `).join('')}
+            </div>
+        </div>
+    `;
 }
